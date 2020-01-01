@@ -4,7 +4,7 @@ pizzapy
 Disclaimer
 -----------
 This is my fork of https://github.com/magicjarvis/pizzapi
-Pls dont use it, its bad (probably)
+I changed it so it works better if you are in Canada because i wanted to try it. Don't be suprised if it dosent work.
 
 Quick Start
 -----------
