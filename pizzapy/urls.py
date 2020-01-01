@@ -9,7 +9,7 @@ class Urls(object):
     to that information. These are handy to pass as a first argument to
     pizzapy.utils.request_[xml|json]. 
     """
-    def __init__(self, country=COUNTRY_USA):
+    def __init__(self, country=COUNTRY_CANADA):
 
         self.country = country
         self.urls = {
