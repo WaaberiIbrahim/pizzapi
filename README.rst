@@ -4,7 +4,8 @@ pizzapy
 Disclaimer
 -----------
 This is my fork of https://github.com/magicjarvis/pizzapi
-I changed it so it works better if you are in Canada because i wanted to try it. Don't be suprised if it dosent work.
+Please don't use it if you're from the US, use the original one.
+If you are in another country than Canada and the United States, i'm not sure if it could work but if Dominos pizza is in your country you could modify the code.
 
 Quick Start
 -----------
