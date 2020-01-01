@@ -1,5 +1,5 @@
 from __future__ import print_function
-from .urls import Urls, COUNTRY_USA
+from .urls import Urls, COUNTRY_CANADA
 from .utils import request_json
 
 
@@ -36,11 +36,11 @@ class Menu(object):
     Next time I get pizza, there is a lot of work to be done in 
     documenting this class.
     """
-    def __init__(self, data={}, country=COUNTRY_USA):
+    def __init__(self, data={}, country=COUNTRY_CANADA):
         self.variants = data.get('Variants', {})
         self.menu_by_code = {}
         self.root_categories = {}
-        self.country = COUNTRY_USA
+        self.country = country
 
         if self.variants:
             self.products = self.parse_items(data['Products'])
@@ -50,7 +50,7 @@ class Menu(object):
                 self.root_categories[key] = self.build_categories(value)
 
     @classmethod
-    def from_store(cls, store_id, lang='en', country=COUNTRY_USA):
+    def from_store(cls, store_id, lang='en', country=COUNTRY_CANADA):
         response = request_json(Urls(country).menu_url(), store_id=store_id, lang=lang)
         menu = cls(response)
         return menu
