@@ -3,27 +3,8 @@ pizzapy
 
 Disclaimer
 -----------
-This is my fork of https://github.com/gamagori/pizzapi
-It's heavily modified and not well documented, but i'm going to get to that. the below example should work though.
-
-sorry! was kind of in a rush this morning.
-
-Setup
------
-
-1. install python3
-2. download this repository
-3. install the requirements of the repository `pip install -r requirements.txt`
-4. start a python3 interpreter inside of the folder called pizzapy
-5. have fun
-
-
-Description
------------
-
-This is a Python wrapper for the Dominos Pizza API.
-
-It's a port of `the pizzapi node.js module <https://github.com/RIAEvangelist/node-dominos-pizza-api>`_ written by `RIAEvangelist <https://github.com/RIAEvangelist>`_.
+This is my fork of https://github.com/magicjarvis/pizzapi
+Pls dont use it, its bad (probably)
 
 Quick Start
 -----------
